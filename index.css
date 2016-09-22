@@ -1,0 +1,208 @@
+body{
+     font-family:       Verdana, Geneva, Arial, sans-serif;
+     font-size:         medium;
+     background-color:  #b3d1ff;
+     color:             black;
+     line-height:       1.6em;
+     text-align:        justify;
+	 background-image:  url("bilder/hintergrund1200.jpg");
+     background-repeat: no-repeat;
+     background-size:   100%;
+
+}
+
+
+header{
+	width:              100%;
+	margin-top:         20px;
+	margin-left:        auto;
+	margin-right:       auto;
+	height:             170px;
+	font-size:          350%;
+    line-height:        2.6em;
+	color:				white;
+    text-shadow:        5px 5px #003d99;
+	background-image:	url('bilder/LOGOTransparentMitSchrift150px.gif');
+	background-repeat: 	no-repeat;
+    background-size:	108%;
+}
+
+
+.ueberschrift{
+    list-style-type:    none;
+    font-weight:        bold;
+    line-height:       1.6em;
+}
+
+
+div#tabellenContainer{
+    display:            table;
+    width:              100%;
+ 	margin-top:         10px;
+	margin-left:        auto;
+    margin-right:       auto;
+}
+
+div#tabellenZeile{
+    display:            table-row;
+}
+
+#menu{
+	display:            table-cell;
+    width:              20%;
+	padding:			0px 30px 0px 30px;
+	vertical-align:		top;
+}
+
+#hauptinhalt{
+    display:            table-cell;
+    width:              62%;
+    padding:            35px;
+	vertical-align:		top;
+	border:			    1px solid white;
+	color:              #444444;
+	background-color:   #cce0ff;
+	border-radius:		15px;	
+}
+
+
+#seitenbilder{
+    display:            table-cell;
+    width:              20%;
+    padding-top:       20px;
+}
+
+
+a:link {
+  color:            #0404B4;
+  text-decoration:  none;
+  border-bottom:    none;
+  font-weight:      bold;
+}
+
+a:visited {
+  color:            #0404B4;
+  text-decoration:  none;
+  border-bottom:    none;
+  font-weight:      bold;
+}
+
+nav{
+    background-color:   #99c2ff;
+    margin:             0px;
+	padding:			0px;
+    font-size:          110%;
+    line-height:        2.6em;
+    text-shadow:        2px 2px #003d99;
+	border:				1px solid white;
+	border-radius:		15px;
+}
+
+nav ul{
+    margin:             0px;
+    padding:            0px 0px 0px 0px; //10 10 10 10
+}
+
+nav ul li {
+    padding:             5px 15px 5px 15px;
+	border-bottom:       1px solid white;
+}
+
+ul{
+    list-style-type:    none;
+}
+
+nav ul li a:link,  nav ul li a:visited{
+    color:              white;
+    font-weight:        bold;
+    border-bottom:      none !important;
+}
+
+nav ul li a:hover{
+    color:              #003d99;
+	text-shadow:        2px 2px white;
+    font-weight:        bold;
+}
+
+nav ul li.selectedTop {
+    color:              blue;
+    background-color:   #4d94ff;
+	//border:				1px solid white;
+	border-radius:		15px 15px 0px 0px;
+}
+
+nav ul li.selectedCenter {
+    color:              blue;
+    background-color:   #4d94ff;
+	//border:				1px solid white;
+	//border-radius:		15px;
+}
+
+nav ul li.selectedBottom {
+    color:              blue;
+    background-color:   #4d94ff;
+	//border:				1px solid white;
+	border-radius:		0px 0px 15px 15px;
+}
+
+#untermenue{
+	//padding-left:		20px;
+    font-size:          100%;
+    line-height:        1em;
+}
+
+nav2{
+    background-color:   #99c2ff;
+    margin:             0px;
+    font-size:          110%;
+    line-height:        2.6em;
+    text-shadow:        2px 2px #003d99;
+}
+
+
+nav2 ul{
+	margin-left:        5px;
+	margin-right:		5px;
+	padding:			5px;
+
+}
+
+nav2 ul li {
+    display:			inline;
+	padding:            5px 5px 5px 5px;
+	margin:				0px 2px 0px 2px;
+	border:      		1px solid white;
+    background-color:   #99c2ff;
+	border-radius:		10px;
+}
+
+
+nav2 ul li a:link,  nav2 ul li a:visited{
+    color:              white;
+    font-weight:        bold;
+    border-bottom:      none !important;
+}
+
+nav2 ul li a:hover{
+    color:              #003d99;
+	text-shadow:        2px 2px white;
+    font-weight:        bold;
+    //background-color:   #4d94ff;
+}
+
+nav2 ul li.selected {
+    color:              blue;
+    background-color:   #4d94ff;
+}
+
+#tabellenButton{
+    //display:        table-cell;
+	//   display:			inline;
+    width:          15%;
+}
+
+footer{
+	color:              grey;
+	text-align:         center;
+	font-size:          90%;
+}
