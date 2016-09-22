@@ -201,6 +201,13 @@ nav2 ul li.selected {
     width:          15%;
 }
 
+td, th{
+    //border:             thin dotted grey;
+    padding:            10px 20px 10px 20px;
+	text-align:         left;
+}
+
+
 footer{
 	color:              grey;
 	text-align:         center;
