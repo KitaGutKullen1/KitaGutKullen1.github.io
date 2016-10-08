@@ -68,8 +68,10 @@ div#tabellenZeile{
 
 #seitenbilder{
     display:            table-cell;
+	vertical-align:		top;
     width:              20%;
-    padding-top:       20px;
+    padding-top:        0px;
+	padding-left:		10px;
 }
 
 
