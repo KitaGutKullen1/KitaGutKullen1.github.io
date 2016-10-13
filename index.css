@@ -212,6 +212,10 @@ td, th{
 }
 
 
+.Center{
+    text-align:         center;
+}
+
 footer{
 	color:              grey;
 	text-align:         center;
