@@ -27,6 +27,10 @@ body{
 	background-repeat: 	no-repeat;
     background-size:	108%;
 	}
+	
+	div#headerSchrift{
+	padding-top:		15px;
+}
 }
 
 @media screen and (max-device-width: 1023px){
@@ -44,6 +48,10 @@ body{
 	background-repeat: 	no-repeat;
     background-size:	108%;
 	}
+	
+	div#headerSchrift{
+	padding-top:		25px;
+}
 }
 div#headerSchrift{
 	padding-top:		15px;
