@@ -1,7 +1,7 @@
 body{
      font-family:       Verdana, Geneva, Arial, sans-serif;
      font-size:         medium;
-     background-color:  #b3d1ff;
+     background-color:  #D2B48C;
      color:             black;
      line-height:       1.6em;
      text-align:        justify;
@@ -25,7 +25,7 @@ body{
     text-shadow:        5px 5px #003d99;
 	//background-image:	url('bilder/LOGOTransparentMitSchrift150px.gif');
 	background-repeat: 	no-repeat;
-    background-size:	108%;
+    background-size:	108%;		
 	}
 	
 	div#headerSchrift{
@@ -50,7 +50,7 @@ body{
 	}
 	
 	div#headerSchrift{
-	padding-top:		40px;
+	padding-top:		60px;
 }
 }
 div#headerSchrift{
