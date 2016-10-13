@@ -17,16 +17,19 @@ header{
 	margin-top:         20px;
 	margin-left:        auto;
 	margin-right:       auto;
-	height:             170px;
+	height:				150px;
 	font-size:          350%;
     line-height:        2.6em;
 	color:				white;
     text-shadow:        5px 5px #003d99;
-	background-image:	url('bilder/LOGOTransparentMitSchrift150px.gif');
+	//background-image:	url('bilder/LOGOTransparentMitSchrift150px.gif');
 	background-repeat: 	no-repeat;
     background-size:	108%;
 }
 
+div#headerSchrift{
+	padding-top:		15px;
+}
 
 .ueberschrift{
     list-style-type:    none;
